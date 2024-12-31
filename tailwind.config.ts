@@ -12,6 +12,9 @@ const config: Config = {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
+      transform: {
+        scaleY: "scaleY",
+      },
     },
   },
   plugins: [],

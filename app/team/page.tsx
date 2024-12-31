@@ -4,26 +4,20 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "John Doe",
+    name: "Ankesh Pandey",
     role: "Team Lead",
     image: "/team1.jpg",
-    email: "johndoe@example.com",
-    contact: "+1 234 567 890",
+    email: "ankeshpandey.com",
+    contact: "+91 1234567890",
   },
   {
-    name: "Jane Smith",
-    role: "Mechanical Engineer",
+    name: "Saideep Verma",
+    role: "Team Vice Lead",
     image: "/team2.jpg",
-    email: "janesmith@example.com",
-    contact: "+1 987 654 321",
+    email: "sv.com",
+    contact: "+91 9870129349",
   },
-  {
-    name: "Alice Johnson",
-    role: "Software Developer",
-    image: "/team3.jpg",
-    email: "alicejohnson@example.com",
-    contact: "+1 456 789 012",
-  },
+
 ];
 
 export default function TeamPage() {

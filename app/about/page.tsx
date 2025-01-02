@@ -74,7 +74,8 @@ export default function ResourcePage() {
                 href={resource.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-4 py-2 bg-primary text-black rounded-lg font-semibold hover:bg-secondary hover:text-white transition"
+                className="inline-block px-4 py-2 bg-primary text-black rounded-lg font-semibold hover:bg-secondary hover:text-white transition z-10 relative"
+                onClick={(e) => e.stopPropagation()} // Prevent animation div from intercepting
               >
                 View Resource
               </a>
